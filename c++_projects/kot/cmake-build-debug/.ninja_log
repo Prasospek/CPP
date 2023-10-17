@@ -1,0 +1,7 @@
+# ninja log v5
+8	587	7191072134513536	CMakeFiles/test1.dir/main.cpp.obj	b9adf31772430cee
+15	677	7191072135411122	CMakeFiles/test1.dir/Sudoku.cpp.obj	c7f2229e1b7f387f
+0	708	7191072135760196	CMakeFiles/test1.dir/Loader.cpp.obj	aa77a50870e9cf9
+709	885	7191072137425744	test1.exe	95b2047be9326db7
+4	493	7191072574375072	CMakeFiles/test1.dir/main.cpp.obj	b9adf31772430cee
+493	657	7191072575956894	test1.exe	95b2047be9326db7

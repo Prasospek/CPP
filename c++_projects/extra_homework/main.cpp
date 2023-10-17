@@ -1,29 +1,14 @@
-#include "Board.h"
-#include "Player.h"
 #include <iostream>
+#include "Game.h"
+
 
 int main() {
     Board board;
     Player player(board);
+    Game game;
 
-    // Display the initial game board
-    board.display();
-
-    while (true) {
-        char move = player.getInput();
-
-        if (move == 'q') {
-            std::cout << "You quit the game." << std::endl;
-            break;
-        }
-
-        player.makeMove(move);
-
-        if (board.isSolved()) {
-            std::cout << "Congratulations! You've won!" << std::endl;
-            break;
-        }
-    }
+    //play(board, player);
+    game.play(board, player);
 
     return 0;
 }

@@ -107,3 +107,4 @@ bool Board::isSolved() const {
     }
     return true;
 }
+

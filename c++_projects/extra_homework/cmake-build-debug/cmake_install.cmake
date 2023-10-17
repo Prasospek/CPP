@@ -1,4 +1,4 @@
-# Install script for directory: D:/ccc++/c++ cvika JA/extra_homework
+# Install script for directory: D:/ccc++/git/c++_projects/extra_homework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/ccc++/c++ cvika JA/extra_homework/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/ccc++/git/c++_projects/extra_homework/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

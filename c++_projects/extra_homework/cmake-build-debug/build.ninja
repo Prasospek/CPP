@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/ccc++/c++$ cvika$ JA/extra_homework/cmake-build-debug/
+cmake_ninja_workdir = D$:/ccc++/git/c++_projects/extra_homework/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target extra_homework
 
@@ -49,26 +49,32 @@ cmake_ninja_workdir = D$:/ccc++/c++$ cvika$ JA/extra_homework/cmake-build-debug/
 
 build cmake_object_order_depends_target_extra_homework: phony || CMakeFiles/extra_homework.dir
 
-build CMakeFiles/extra_homework.dir/main.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/c++$ cvika$ JA/extra_homework/main.cpp || cmake_object_order_depends_target_extra_homework
+build CMakeFiles/extra_homework.dir/main.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/git/c++_projects/extra_homework/main.cpp || cmake_object_order_depends_target_extra_homework
   DEP_FILE = CMakeFiles\extra_homework.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\extra_homework.dir
   OBJECT_FILE_DIR = CMakeFiles\extra_homework.dir
 
-build CMakeFiles/extra_homework.dir/Tile.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/c++$ cvika$ JA/extra_homework/Tile.cpp || cmake_object_order_depends_target_extra_homework
+build CMakeFiles/extra_homework.dir/Tile.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/git/c++_projects/extra_homework/Tile.cpp || cmake_object_order_depends_target_extra_homework
   DEP_FILE = CMakeFiles\extra_homework.dir\Tile.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\extra_homework.dir
   OBJECT_FILE_DIR = CMakeFiles\extra_homework.dir
 
-build CMakeFiles/extra_homework.dir/Player.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/c++$ cvika$ JA/extra_homework/Player.cpp || cmake_object_order_depends_target_extra_homework
+build CMakeFiles/extra_homework.dir/Player.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/git/c++_projects/extra_homework/Player.cpp || cmake_object_order_depends_target_extra_homework
   DEP_FILE = CMakeFiles\extra_homework.dir\Player.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\extra_homework.dir
   OBJECT_FILE_DIR = CMakeFiles\extra_homework.dir
 
-build CMakeFiles/extra_homework.dir/Board.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/c++$ cvika$ JA/extra_homework/Board.cpp || cmake_object_order_depends_target_extra_homework
+build CMakeFiles/extra_homework.dir/Board.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/git/c++_projects/extra_homework/Board.cpp || cmake_object_order_depends_target_extra_homework
   DEP_FILE = CMakeFiles\extra_homework.dir\Board.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\extra_homework.dir
+  OBJECT_FILE_DIR = CMakeFiles\extra_homework.dir
+
+build CMakeFiles/extra_homework.dir/Game.cpp.obj: CXX_COMPILER__extra_homework_Debug D$:/ccc++/git/c++_projects/extra_homework/Game.cpp || cmake_object_order_depends_target_extra_homework
+  DEP_FILE = CMakeFiles\extra_homework.dir\Game.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\extra_homework.dir
   OBJECT_FILE_DIR = CMakeFiles\extra_homework.dir
@@ -81,7 +87,7 @@ build CMakeFiles/extra_homework.dir/Board.cpp.obj: CXX_COMPILER__extra_homework_
 #############################################
 # Link the executable extra_homework.exe
 
-build extra_homework.exe: CXX_EXECUTABLE_LINKER__extra_homework_Debug CMakeFiles/extra_homework.dir/main.cpp.obj CMakeFiles/extra_homework.dir/Tile.cpp.obj CMakeFiles/extra_homework.dir/Player.cpp.obj CMakeFiles/extra_homework.dir/Board.cpp.obj
+build extra_homework.exe: CXX_EXECUTABLE_LINKER__extra_homework_Debug CMakeFiles/extra_homework.dir/main.cpp.obj CMakeFiles/extra_homework.dir/Tile.cpp.obj CMakeFiles/extra_homework.dir/Player.cpp.obj CMakeFiles/extra_homework.dir/Board.cpp.obj CMakeFiles/extra_homework.dir/Game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\extra_homework.dir
@@ -96,7 +102,7 @@ build extra_homework.exe: CXX_EXECUTABLE_LINKER__extra_homework_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\ccc++\c++ cvika JA\extra_homework\cmake-build-debug" && C:\Users\Filda\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\ccc++\git\c++_projects\extra_homework\cmake-build-debug && C:\Users\Filda\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -107,7 +113,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\ccc++\c++ cvika JA\extra_homework\cmake-build-debug" && C:\Users\Filda\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\ccc++\c++ cvika JA\extra_homework" -B"D:\ccc++\c++ cvika JA\extra_homework\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D D:\ccc++\git\c++_projects\extra_homework\cmake-build-debug && C:\Users\Filda\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ccc++\git\c++_projects\extra_homework -BD:\ccc++\git\c++_projects\extra_homework\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -125,7 +131,7 @@ build extra_homework: phony extra_homework.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/ccc++/c++ cvika JA/extra_homework/cmake-build-debug
+# Folder: D:/ccc++/git/c++_projects/extra_homework/cmake-build-debug
 
 build all: phony extra_homework.exe
 
@@ -136,14 +142,14 @@ build all: phony extra_homework.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/ccc++/c++$ cvika$ JA/extra_homework/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/ccc++/git/c++_projects/extra_homework/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/ccc++/c++$ cvika$ JA/extra_homework/CMakeLists.txt: phony
+build C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/Filda/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/ccc++/git/c++_projects/extra_homework/CMakeLists.txt: phony
 
 
 #############################################
